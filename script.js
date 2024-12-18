@@ -1,23 +1,12 @@
 
  let bar = document.getElementById("bar")
-console.log(bar)
-
-
-
-
-bar.addEventListener('click',()=>{
-    // .main{
-    //     display:none;
-    // }
-    console.log('block')
-    bar.style.display = `block`
-    bar.style.display="block";
+ let cross = document.getElementById("cross")
+let lines = document.getElementById("lines")
+lines.addEventListener('click',()=>{
+    bar.style.display='block'
 })
 
 
-let cross = document.getElementById("cross")
-
-
 cross.addEventListener('click', () => {
-    console.log("display mone")
+    bar.style.display='none'
 })

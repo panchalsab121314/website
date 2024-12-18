@@ -62,9 +62,9 @@ p {
 }
 
 
-.main{
+.main1{
     background-color: rgb(73, 67, 67);
-    margin-bottom: 100%;
+    margin-bottom: 100px;
 }
 .bar i {
     display: none;
@@ -103,9 +103,13 @@ p {
     color: red;
     font-size: 27px;
 }
+.close i :hover{
+    color: rgb(218, 93, 93);
+}
 .parts p {
     color: white;
     margin: 20px;
+    /* font-size: 19px; */
 }
 
 
@@ -138,7 +142,7 @@ font-size: 17px;
 
 @media screen and (max-width: 532px) {
     .icone img {
-        width: 150px;
+        width: 170px;
     }
 
     .serch input {
@@ -165,14 +169,19 @@ font-size: 17px;
 
 @media screen and (max-width:400px) {
     .icone img {
-        width: 110px;
+        width: 140px;
+        margin: 5px;
         margin-left: -50px;
+    }
+    .parts p {
+        font-size: 19px;
     }
 }
 
 @media screen and (max-width: 350px) {
     .icone img {
-        width: 130px;
+        width: 140px;
+        margin: 5px;
         margin-left: -60px;
     }
 
@@ -191,7 +200,7 @@ font-size: 17px;
     }
 }
 
-.bar{
+#bar{
     display:none;
 }
 
