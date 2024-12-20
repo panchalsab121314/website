@@ -6,26 +6,33 @@
 .nav_bar {
     justify-content: space-around;
     display: flex;
-    background-color: rgb(155, 230, 230);
+    align-items: center;
+}
+
+.icons {
+    display: flex;
     align-items: center;
 }
 
 .icone img {
-    width: 200px;
+    width: 160px;
+    margin-left: -50px;
 }
 
 .serch {
-    margin: 20px;
+    margin: 10px;
     border-radius: 8px;
-    border: 2px solid black;
     background-color: white;
 }
 
 .serch input {
-    padding: 10px;
-    width: 400px;
-    font-size: 15px;
+    padding: 7px;
+    width: 550px;
+    background-color: rgb(207, 247, 233);
+    margin-left: -50px;
+    font-size: 19px;
     border: none;
+    border-radius: 10px;
     border: 1px solid white;
 }
 
@@ -41,46 +48,47 @@
 }
 
 .cart_i i {
-    font-size: 25px;
-    margin: 4px;
+    font-size: 19px;
+    margin: 3px;
 }
 
 p {
-    font-size: 23px;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-}
 
-.home {
-    margin: 15px;
+    font-size: 17px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .box {
-    margin: 8px;
+    margin: 10px;
     align-items: center;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
 }
 
-
-.main1{
+.main1 {
     background-color: rgb(73, 67, 67);
     margin-bottom: 100px;
 }
+
 .bar i {
     display: none;
     font-size: 25px;
     margin: 5px;
     cursor: pointer;
 }
+
 .nav_bar {
     position: relative;
+    background-color: #fff;
 }
+
 .bar_search {
     margin: 20px;
     border-radius: 8px;
     border: 2px solid black;
     background-color: white;
 }
+
 .bar_search input {
     padding: 10px;
     font-size: 15px;
@@ -89,56 +97,111 @@ p {
     border-bottom-left-radius: 10px;
     border: 1px solid white;
 }
+
 .bar_search i {
     margin: 5px;
     font-size: 20px;
 }
+
 .flex_bar {
     display: flex;
     align-items: center;
     justify-content: space-evenly;
 }
-.close i{
+
+.close i {
     border: none;
     color: red;
     font-size: 27px;
 }
-.close i :hover{
+
+.close i :hover {
     color: rgb(218, 93, 93);
 }
+
 .parts p {
     color: white;
     margin: 20px;
     /* font-size: 19px; */
 }
 
-
-
-
-
 @media only screen and (max-width: 1100px) {
     .serch input {
         width: 200px !important;
     }
-    .box p {
-font-size: 17px;
+
+    #section3 {
+        display: none;
     }
+
+    .section {
+        margin: 10px;
+    }
+
+    .box p {
+        font-size: 17px;
+    }
+
     .box i {
         font-size: 17px;
-            }
-    .home{
-        display: none;
+
     }
+
     .bar i {
         display: block;
+        font-size: 20px;
     }
-}
-@media screen and (max-width: 730px) {
-    .serch_12{
-        display: none;
+
+    .dress img {
+        height: 40px;
     }
 }
 
+@media screen and (max-width: 730px) {
+    #Seller {
+        display: none;
+    }
+
+    #section2 {
+        display: none;
+    }
+
+    #Become {
+        display: none;
+    }
+
+    #dots {
+        display: none;
+    }
+
+    .produts_lists {
+        padding: 5px;
+
+    }
+    .cart1 img {
+        width: 120px;
+        margin-left: 2px;
+        margin-right: 2px;
+    }
+    .img1 {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+    }
+
+    .slide img {
+        border-radius: 10px;
+        width: 355px;
+        height: 150px;
+        object-fit: cover;
+    }
+}
+
+@media screen and (max-width: 630px) {
+    .serch_12 {
+        display: none;
+    }
+}
 
 @media screen and (max-width: 532px) {
     .icone img {
@@ -170,19 +233,28 @@ font-size: 17px;
 @media screen and (max-width:400px) {
     .icone img {
         width: 140px;
-        margin: 5px;
-        margin-left: -50px;
+        margin-left: -40px;
+        margin-top: 10px
     }
+
+    /* #section2{
+        display: none;
+    } */
     .parts p {
         font-size: 19px;
     }
+
+    /* .slide img{
+       width: 350px;
+       height: 200px;
+    } */
+
 }
 
 @media screen and (max-width: 350px) {
     .icone img {
         width: 140px;
         margin: 5px;
-        margin-left: -60px;
     }
 
     .bar i {
@@ -198,9 +270,128 @@ font-size: 17px;
         margin: 2px;
         font-size: 15px;
     }
+
+    /* .dress img{
+        height: 100px;
+        width: 100px;
+    } */
 }
 
-#bar{
-    display:none;
+#bar {
+    display: none;
 }
 
+/* there are part of product */
+.Products {
+    display: flex;
+    align-items: center;
+    background-color: white;
+    justify-content: space-evenly;
+}
+
+.color {
+    background-color: rgb(219, 227, 228);
+    padding: 10px;
+    align-items: center;
+}
+
+.dress {
+    text-align: center;
+    margin: 20px;
+}
+
+.dress img {
+    height: 65px;
+}
+
+.dress p {
+    font-size: 16px;
+}
+
+.section {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+/* //there are a slider part */
+
+header {
+    padding: 10px;
+    background-color: rgb(6, 13, 14);
+    align-items: center;
+}
+
+.container_2 {
+    margin: auto;
+    overflow: hidden;
+    max-width: 100%;
+}
+
+.slide img {
+    border-radius: 10px;
+    width: 1273px;
+    height: 300px;
+    object-fit: cover;
+}
+
+.slider {
+    display: flex;
+}
+
+/* part of produts_lists down */
+.produts_lists {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
+    justify-content: space-evenly;
+}
+
+/* .img1 img {
+    height: 220px;
+    width: 170px;
+}
+
+.img1 img:hover {
+    height: 225px;
+    width: 175px;
+} */
+
+.headind h1 {
+    font-size: 22px;
+    margin: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.img1 {
+    width: 245px;
+    border: 1px solid rgb(204, 226, 219);
+    text-align: center;
+    box-shadow: 3px 2px 3px 3px rgb(204, 226, 219);
+    background-color: #fff;
+}
+
+.img1 img {
+    height: 150px;
+    width: 100px;
+    object-fit: cover;
+}
+
+/* .img1 p{
+    margin: 10px;
+} */
+
+
+/* there are part of carts */
+
+.cart_lists {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 5px;
+}
+
+.cart1 img {
+    width: 420px;
+    margin-left: 2px;
+    margin-right: 2px;
+}
