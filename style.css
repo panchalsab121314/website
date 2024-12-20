@@ -169,17 +169,16 @@ p {
     #Become {
         display: none;
     }
-
     #dots {
         display: none;
     }
 
-    .produts_lists {
-        padding: 5px;
-
+    #produts_lists {
+        display: inline;
     }
-    .cart1 img {
-        width: 120px;
+    #cart1 img {
+        width: 115px;
+        height: 60px;
         margin-left: 2px;
         margin-right: 2px;
     }
@@ -189,17 +188,17 @@ p {
         align-items: center;
     }
 
-    .slide img {
-        border-radius: 10px;
-        width: 355px;
-        height: 150px;
-        object-fit: cover;
-    }
 }
 
 @media screen and (max-width: 630px) {
     .serch_12 {
         display: none;
+    }
+    #slid img {
+        border-radius: 10px;
+        width: 355px;
+        height: 150px;
+        object-fit: cover;
     }
 }
 
@@ -318,10 +317,8 @@ p {
 
 header {
     padding: 10px;
-    background-color: rgb(6, 13, 14);
     align-items: center;
 }
-
 .container_2 {
     margin: auto;
     overflow: hidden;
