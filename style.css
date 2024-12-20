@@ -177,14 +177,13 @@ p {
         display: inline;
     }
     #cart1 img {
-        width: 170px;
+        width: 195px;
         height: 90px;
         margin-left: 2px;
         margin-right: 2px;
     }
     .img1 {
         display: flex;
-
         align-items: center;
     }
 
@@ -196,7 +195,7 @@ p {
     }
     #slid img {
         border-radius: 10px;
-        width: 340px;
+        width: 395px;
         height: 150px;
         object-fit: cover;
     }
