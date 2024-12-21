@@ -29,6 +29,13 @@ body {
     background-color: white;
 }
 
+.container {
+    position: fixed;
+    z-index: 100;
+    width: 100%;
+    top: 0;
+}
+
 .serch input {
     padding: 7px;
     width: 550px;
@@ -57,7 +64,6 @@ body {
 }
 
 p {
-
     font-size: 17px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
@@ -71,9 +77,9 @@ p {
 
 .main1 {
     background-color: rgb(73, 67, 67);
-padding: 10px;
-border-bottom-right-radius: 20px;
-border-bottom-left-radius: 20px;
+    padding: 10px;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
 }
 
 .bar i {
@@ -94,6 +100,7 @@ border-bottom-left-radius: 20px;
     border: 2px solid black;
     background-color: white;
 }
+
 .bar_search input {
     padding: 5px;
     font-size: 15px;
@@ -119,8 +126,11 @@ border-bottom-left-radius: 20px;
 
 .parts p {
     color: white;
-    margin: 20px;
-    /* font-size: 19px; */
+    margin: 10px;
+    padding: 7px;
+    width: 70px;
+    border-radius: 10px;
+    background-color: rgb(146, 64, 64);
 }
 
 @media only screen and (max-width: 1100px) {
@@ -164,35 +174,47 @@ border-bottom-left-radius: 20px;
     #box_3 {
         display: none;
     }
+    #next_slide img{
+        width:100% ;
+        height: 200px;
+    }
 
 }
+
 @media screen and (max-width: 730px) {
     #Seller {
         display: none;
     }
+
     #section2 {
         display: none;
     }
+
     #Become {
         display: none;
     }
+
     #dots {
         display: none;
     }
+
     #produts_lists {
         display: inline;
     }
+
     #cart1 img {
         width: 195px;
         height: 90px;
         margin-left: 2px;
         margin-right: 2px;
     }
+
     #jackets {
         width: 310px;
         height: 80px;
         margin: 5px;
     }
+
     #jackets img {
         height: 70px;
         margin-left: 20px;
@@ -202,36 +224,50 @@ border-bottom-left-radius: 20px;
         display: flex;
         align-items: center;
     }
+
     #slid img {
         border-radius: 10px;
         width: 705px;
         height: 250px;
         object-fit: cover;
     }
+
     #box_two {
         display: none;
     }
 
+    .main {
+        margin-top: 50px;
+    }
+
+    .color {
+        margin-top: auto;
+    }
 }
 
 @media screen and (max-width: 630px) {
     .serch_12 {
         display: none;
     }
-
+    #next_slide img{
+        width:100% ;
+        height: 180px;
+    }
     #slid img {
         border-radius: 10px;
         width: 585px;
         height: 180px;
         object-fit: cover;
     }
-    #number_1{
+
+    #number_1 {
         width: 140px;
-       }
-       #number_1 img{
+    }
+
+    #number_1 img {
         width: 130px;
         height: 120px;
-       }
+    }
 }
 
 @media screen and (max-width: 532px) {
@@ -275,7 +311,8 @@ border-bottom-left-radius: 20px;
         height: 150px;
         object-fit: cover;
     }
-    #cart1 img {     
+
+    #cart1 img {
         height: 60px;
         width: 136px;
         height: 95px;
@@ -283,9 +320,10 @@ border-bottom-left-radius: 20px;
         margin-left: 2px;
         margin-right: 2px;
     }
-    #number_1{
+
+    #number_1 {
         width: 120px;
-       }
+    }
 }
 
 @media screen and (max-width:414px) {
@@ -294,16 +332,19 @@ border-bottom-left-radius: 20px;
         margin-left: -40px;
         margin-top: 10px
     }
+
     .parts p {
         font-size: 19px;
     }
+
     #slid img {
         border-radius: 10px;
         width: 393px;
         height: 150px;
         object-fit: cover;
     }
-    #cart1 img {     
+
+    #cart1 img {
         height: 60px;
         width: 125px;
         height: 95px;
@@ -311,10 +352,12 @@ border-bottom-left-radius: 20px;
         margin-left: 2px;
         margin-right: 2px;
     }
-    #number_1{
+
+    #number_1 {
         width: 155px;
-       }
+    }
 }
+
 @media screen and (max-width: 390px) {
     #slid img {
         border-radius: 10px;
@@ -322,16 +365,18 @@ border-bottom-left-radius: 20px;
         height: 150px;
         object-fit: cover;
     }
-    #cart1 img {     
+
+    #cart1 img {
         width: 117px;
         height: 95px;
         border-radius: 7px;
         margin-left: 2px;
         margin-right: 2px;
     }
-    #number_1{
+
+    #number_1 {
         width: 140px;
-       }
+    }
 }
 
 @media screen and (max-width: 387px) {
@@ -341,6 +386,7 @@ border-bottom-left-radius: 20px;
         height: 150px;
         object-fit: cover;
     }
+
     #cart1 img {
         width: 115px;
         height: 80px;
@@ -355,6 +401,7 @@ border-bottom-left-radius: 20px;
         width: 140px;
         margin: 5px;
     }
+
     .bar i {
         font-size: 25px;
         margin: 4px;
@@ -368,12 +415,14 @@ border-bottom-left-radius: 20px;
         margin: 2px;
         font-size: 15px;
     }
+
     #slid img {
         border-radius: 11px;
         width: 355px;
         height: 150px;
         object-fit: cover;
     }
+
     #cart1 img {
         width: 115px;
         height: 65px;
@@ -390,6 +439,7 @@ border-bottom-left-radius: 20px;
         height: 150px;
         object-fit: cover;
     }
+
     #cart1 img {
         width: 112px;
         height: 95px;
@@ -397,9 +447,10 @@ border-bottom-left-radius: 20px;
         margin-left: 2px;
         margin-right: 2px;
     }
-    #number_1{
+
+    #number_1 {
         width: 140px;
-       }
+    }
 
 }
 
@@ -412,16 +463,16 @@ border-bottom-left-radius: 20px;
     background-color: white;
     padding-top: 5px;
 }
-
 .Products {
     display: flex;
     align-items: center;
     background-color: white;
+    margin-top: 25px;
     justify-content: space-evenly;
 }
 
 .color {
-    background-color: rgb(219, 227, 228);
+    margin-top: 30px;
     padding: 10px;
     align-items: center;
 }
@@ -430,6 +481,7 @@ border-bottom-left-radius: 20px;
     text-align: center;
     margin: 20px;
 }
+
 .dress:hover {
     border-radius: 9px;
     box-shadow: rgba(0, 0, 0, 0.2) 0px 12px 28px 0px, rgba(0, 0, 0, 0.1) 0px 2px 4px 0px, rgba(255, 255, 255, 0.05) 0px 0px 0px 1px inset;
@@ -494,7 +546,8 @@ header {
     text-align: center;
     background-color: #fff;
 }
-.img1:hover{
+
+.img1:hover {
     border-radius: 5px;
     box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
 }
@@ -543,18 +596,34 @@ header {
     margin: 10px;
     border: 2px solid rgb(194, 183, 183);
 }
+
 .number_1:hover {
     box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
-  border-radius: 5px;
+    border-radius: 5px;
     border: 2px solid rgb(194, 183, 183);
 }
+
 /* slider_type imeges */
 
-.slider_type{
+.slider_type {
     padding: 10px;
 }
 
-.slider_type img{
+.slider_type img {
     width: 100%;
-height: auto;
+    height: auto;
+}
+
+/* there are part off three boxes flex */
+.One_img_bg img {
+    height: 500px;
+    width: 400px;
+}
+.next_slide img{
+    width:100% ;
+    height: 300px;
+}
+
+.One_img_bg img:hover {
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }
