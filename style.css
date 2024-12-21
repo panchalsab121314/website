@@ -26,6 +26,7 @@ body {
 .serch {
     margin: 10px;
     border-radius: 8px;
+    padding: 10px;
     background-color: white;
 }
 
@@ -59,22 +60,23 @@ body {
 }
 
 .cart_i i {
-    font-size: 19px;
+    font-size: 15px;
     margin: 3px;
 }
-
+.box:hover {
+    border-radius: 8px;
+background-color: rgb(196, 206, 206);
+}
 p {
     font-size: 17px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
-
 .box {
-    margin: 10px;
+    margin: 7px;
     align-items: center;
     display: flex;
     justify-content: space-evenly;
 }
-
 .main1 {
     background-color: rgb(73, 67, 67);
     padding: 10px;
@@ -152,16 +154,16 @@ p {
 
     .box i {
         font-size: 17px;
-
     }
-
     .bar i {
         display: block;
         font-size: 20px;
     }
-
     .dress img {
         height: 40px;
+    }
+    .ending{
+        display: none;
     }
 
     #slid img {
@@ -181,30 +183,24 @@ p {
     #Seller {
         display: none;
     }
-
     #section2 {
         display: none;
     }
-
     #Become {
         display: none;
     }
-
     #dots {
         display: none;
     }
-
     #produts_lists {
         display: inline;
     }
-
     #cart1 img {
         width: 195px;
         height: 90px;
         margin-left: 2px;
         margin-right: 2px;
     }
-
     #jackets {
         width: 310px;
         height: 80px;
@@ -245,6 +241,7 @@ p {
     .serch_12 {
         display: none;
     }
+
     #slid img {
         border-radius: 10px;
         width: 585px;
@@ -455,6 +452,7 @@ p {
     background-color: white;
     padding-top: 5px;
 }
+
 .Products {
     display: flex;
     align-items: center;
@@ -611,10 +609,73 @@ header {
     height: 500px;
     width: 400px;
 }
+
 .One_img_bg img:hover {
     box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }
-.flexity{
+
+.ending {
     background-color: rgb(48, 44, 44);
+}
+
+.main_end {
+    text-align: center;
+}
+
+/* <!-- there are laste ending page --> */
+.flexity {
     color: white;
+    padding-top: 40px;
+    padding-bottom: 10px;
+    display: flex;
+    justify-content: space-evenly;
+}
+#about{
+    color: rgb(207, 204, 204);
+    margin-bottom: 15px;
+}
+
+/* there are parts off icons facbook */
+
+.face {
+    display: flex;
+    margin: 5px;
+    justify-content: center;
+}
+
+.sosial p {
+    color: rgb(207, 204, 204);
+}
+
+.facbook i {
+    font-size: 18px;
+    margin: 4px;
+    padding: 5px;
+    color: white;
+}
+.facbook i:hover {
+    font-size: 20px;
+ color: rgb(165, 173, 180);
+}
+
+/* there are part off 2002 */
+.main_saller {
+    display: flex;
+    padding: 18px;
+    justify-content: space-evenly;
+}
+
+.saller {
+    display: flex;
+    color: white;
+    align-items: center;
+}
+
+.become_i i {
+    margin: 5px;
+    font-size: 16px;
+}
+.become_i i:hover {
+color: rgb(165, 173, 180);
+    font-size: 17px;
 }
