@@ -305,7 +305,7 @@ border-bottom-left-radius: 20px;
     }
     #cart1 img {     
         height: 60px;
-        width: 130px;
+        width: 125px;
         height: 95px;
         border-radius: 7px;
         margin-left: 2px;
@@ -315,7 +315,6 @@ border-bottom-left-radius: 20px;
         width: 155px;
        }
 }
-
 @media screen and (max-width: 390px) {
     #slid img {
         border-radius: 10px;
@@ -324,7 +323,6 @@ border-bottom-left-radius: 20px;
         object-fit: cover;
     }
     #cart1 img {     
-        height: 60px;
         width: 117px;
         height: 95px;
         border-radius: 7px;
@@ -334,7 +332,6 @@ border-bottom-left-radius: 20px;
     #number_1{
         width: 140px;
        }
-
 }
 
 @media screen and (max-width: 387px) {
@@ -345,8 +342,8 @@ border-bottom-left-radius: 20px;
         object-fit: cover;
     }
     #cart1 img {
-        width: 180px;
-        height: 95px;
+        width: 115px;
+        height: 80px;
         border-radius: 7px;
         margin-left: 2px;
         margin-right: 2px;
@@ -378,7 +375,7 @@ border-bottom-left-radius: 20px;
         object-fit: cover;
     }
     #cart1 img {
-        width: 105px;
+        width: 115px;
         height: 65px;
         border-radius: 7px;
         margin-left: 2px;
@@ -386,7 +383,7 @@ border-bottom-left-radius: 20px;
     }
 }
 
-@media screen and (max-width: 360px) {
+@media screen and (max-width: 371px) {
     #slid img {
         border-radius: 11px;
         width: 340px;
@@ -394,12 +391,15 @@ border-bottom-left-radius: 20px;
         object-fit: cover;
     }
     #cart1 img {
-        width: 140px;
+        width: 112px;
         height: 95px;
         border-radius: 7px;
         margin-left: 2px;
         margin-right: 2px;
     }
+    #number_1{
+        width: 140px;
+       }
 
 }
 
@@ -430,9 +430,14 @@ border-bottom-left-radius: 20px;
     text-align: center;
     margin: 20px;
 }
+.dress:hover {
+    border-radius: 9px;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 12px 28px 0px, rgba(0, 0, 0, 0.1) 0px 2px 4px 0px, rgba(255, 255, 255, 0.05) 0px 0px 0px 1px inset;
+}
 
 .dress img {
-    height: 65px;
+    height: 80px;
+
 }
 
 .dress p {
@@ -489,6 +494,10 @@ header {
     text-align: center;
     background-color: #fff;
 }
+.img1:hover{
+    border-radius: 5px;
+    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+}
 
 .img1 img {
     height: 150px;
@@ -532,6 +541,11 @@ header {
     width: 150px;
     padding: 10px;
     margin: 10px;
+    border: 2px solid rgb(194, 183, 183);
+}
+.number_1:hover {
+    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+  border-radius: 5px;
     border: 2px solid rgb(194, 183, 183);
 }
 /* slider_type imeges */
