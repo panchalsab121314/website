@@ -318,6 +318,13 @@ p {
         height: 150px;
         object-fit: cover;
     }
+    #cart1 img {
+        width: 185px;
+        height: 95px;
+        border-radius: 7px;
+        margin-left: 2px;
+        margin-right: 2px;
+    }
 }
 
 @media screen and (max-width: 387px) {
@@ -327,7 +334,6 @@ p {
         height: 150px;
         object-fit: cover;
     }
-
     #cart1 img {
         width: 180px;
         height: 95px;
@@ -342,7 +348,6 @@ p {
         width: 140px;
         margin: 5px;
     }
-
     .bar i {
         font-size: 25px;
         margin: 4px;
@@ -356,12 +361,18 @@ p {
         margin: 2px;
         font-size: 15px;
     }
-
     #slid img {
         border-radius: 11px;
         width: 355px;
         height: 150px;
         object-fit: cover;
+    }
+    #cart1 img {
+        width: 174px;
+        height: 95px;
+        border-radius: 7px;
+        margin-left: 2px;
+        margin-right: 2px;
     }
 }
 
@@ -371,6 +382,13 @@ p {
         width: 340px;
         height: 150px;
         object-fit: cover;
+    }
+    #cart1 img {
+        width: 140px;
+        height: 95px;
+        border-radius: 7px;
+        margin-left: 2px;
+        margin-right: 2px;
     }
 }
 
