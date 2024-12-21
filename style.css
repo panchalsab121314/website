@@ -288,7 +288,14 @@ p {
         object-fit: cover;
     }
 }
-
+@media screen and (max-width: 387px) {
+    #slid img {
+        border-radius: 10px;
+        width: 366px;
+        height: 150px;
+        object-fit: cover;
+    }
+}
 
 @media screen and (max-width: 375px) {
     .icone img {
