@@ -3,6 +3,10 @@
     padding: 0px;
 }
 
+body {
+    background-color: rgb(219, 227, 228);
+}
+
 .nav_bar {
     justify-content: space-around;
     display: flex;
@@ -155,12 +159,18 @@ p {
     .dress img {
         height: 40px;
     }
+
     #slid img {
         border-radius: 10px;
         width: 1085px;
         height: 360px;
         object-fit: cover;
     }
+
+    #box_3 {
+        display: none;
+    }
+
 }
 
 @media screen and (max-width: 730px) {
@@ -175,6 +185,7 @@ p {
     #Become {
         display: none;
     }
+
     #dots {
         display: none;
     }
@@ -182,21 +193,25 @@ p {
     #produts_lists {
         display: inline;
     }
+
     #cart1 img {
         width: 195px;
         height: 90px;
         margin-left: 2px;
         margin-right: 2px;
     }
-    #jackets{
+
+    #jackets {
         width: 310px;
         height: 80px;
         margin: 5px;
     }
-    #jackets img{
-       height: 70px;
-       margin-left: 20px;
+
+    #jackets img {
+        height: 70px;
+        margin-left: 20px;
     }
+
     .img1 {
         display: flex;
         align-items: center;
@@ -207,6 +222,9 @@ p {
         height: 250px;
         object-fit: cover;
     }
+    #box_two {
+        display: none;
+    }
 
 }
 
@@ -214,12 +232,20 @@ p {
     .serch_12 {
         display: none;
     }
+
     #slid img {
         border-radius: 10px;
         width: 585px;
         height: 180px;
         object-fit: cover;
     }
+    #number_1{
+        width: 140px;
+       }
+       #number_1 img{
+        width: 130px;
+        height: 120px;
+       }
 }
 
 @media screen and (max-width: 532px) {
@@ -247,6 +273,7 @@ p {
     .serch {
         margin: 10px;
     }
+
     #slid img {
         border-radius: 10px;
         width: 493px;
@@ -261,9 +288,11 @@ p {
         margin-left: -40px;
         margin-top: 10px
     }
+
     .parts p {
         font-size: 19px;
     }
+
     #slid img {
         border-radius: 10px;
         width: 355px;
@@ -272,6 +301,7 @@ p {
     }
 
 }
+
 @media screen and (max-width: 430px) {
     #slid img {
         border-radius: 11px;
@@ -280,6 +310,7 @@ p {
         object-fit: cover;
     }
 }
+
 @media screen and (max-width: 390px) {
     #slid img {
         border-radius: 10px;
@@ -288,12 +319,21 @@ p {
         object-fit: cover;
     }
 }
+
 @media screen and (max-width: 387px) {
     #slid img {
         border-radius: 10px;
         width: 366px;
         height: 150px;
         object-fit: cover;
+    }
+
+    #cart1 img {
+        width: 180px;
+        height: 95px;
+        border-radius: 7px;
+        margin-left: 2px;
+        margin-right: 2px;
     }
 }
 
@@ -324,6 +364,7 @@ p {
         object-fit: cover;
     }
 }
+
 @media screen and (max-width: 360px) {
     #slid img {
         border-radius: 11px;
@@ -338,6 +379,11 @@ p {
 }
 
 /* there are part of product */
+.part_prodicts {
+    background-color: white;
+    padding-top: 5px;
+}
+
 .Products {
     display: flex;
     align-items: center;
@@ -376,6 +422,7 @@ header {
     padding: 10px;
     align-items: center;
 }
+
 .container_2 {
     margin: auto;
     overflow: hidden;
@@ -401,16 +448,6 @@ header {
     justify-content: space-evenly;
 }
 
-/* .img1 img {
-    height: 220px;
-    width: 170px;
-}
-
-.img1 img:hover {
-    height: 225px;
-    width: 175px;
-} */
-
 .headind h1 {
     font-size: 22px;
     margin: 20px;
@@ -421,7 +458,6 @@ header {
     width: 245px;
     border: 1px solid rgb(204, 226, 219);
     text-align: center;
-    box-shadow: 3px 2px 3px 3px rgb(204, 226, 219);
     background-color: #fff;
 }
 
@@ -430,11 +466,6 @@ header {
     width: 100px;
     object-fit: cover;
 }
-
-/* .img1 p{
-    margin: 10px;
-} */
-
 
 /* there are part of carts */
 
@@ -448,4 +479,29 @@ header {
     width: 420px;
     margin-left: 2px;
     margin-right: 2px;
+}
+
+/* there are part off cart down part */
+.main_three_box {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.three_box {
+    display: flex;
+    flex-wrap: wrap;
+    width: 400px;
+    background-color: #fff;
+}
+
+.number_1 img {
+    width: 150px;
+    height: 150px;
+}
+
+.number_1 {
+    width: 150px;
+    padding: 10px;
+    margin: 10px;
+    border: 2px solid rgb(194, 183, 183);
 }
