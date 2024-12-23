@@ -63,25 +63,35 @@ body {
     font-size: 15px;
     margin: 3px;
 }
+
 .box:hover {
     border-radius: 8px;
-background-color: rgb(196, 206, 206);
+    background-color: rgb(196, 206, 206);
 }
+
 p {
     font-size: 17px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
+
 .box {
     margin: 7px;
     align-items: center;
     display: flex;
     justify-content: space-evenly;
 }
+
 .main1 {
     background-color: rgb(73, 67, 67);
     padding: 10px;
     border-bottom-right-radius: 20px;
     border-bottom-left-radius: 20px;
+}
+.parts{
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+
 }
 
 .bar i {
@@ -97,15 +107,14 @@ p {
 }
 
 .bar_search {
-    margin: 10px;
     border-radius: 8px;
     border: 2px solid black;
-    background-color: white;
 }
 
 .bar_search input {
+    width: 270px;
     padding: 5px;
-    font-size: 15px;
+    font-size: 18px;
     border: none;
     border-radius: 10px;
 }
@@ -128,10 +137,10 @@ p {
 
 .parts p {
     color: white;
-    margin: 10px;
+    margin: 5px;
     padding: 7px;
-    width: 70px;
-    border-radius: 10px;
+    width: 50px;
+    border-radius: 5px;
     background-color: rgb(146, 64, 64);
 }
 
@@ -155,15 +164,14 @@ p {
     .box i {
         font-size: 17px;
     }
+
     .bar i {
         display: block;
         font-size: 20px;
     }
+
     .dress img {
         height: 40px;
-    }
-    .ending{
-        display: none;
     }
 
     #slid img {
@@ -183,28 +191,47 @@ p {
     #Seller {
         display: none;
     }
+    #ending_flexity {
+        display: block;
+        display: flex;
+        justify-content: space-evenly;
+        padding: 10px;
+        position: fixed;
+        z-index: 100;
+        background-color: #fff;
+        bottom: 0px;
+        width: 100%;
+    }
     #section2 {
         display: none;
     }
     #Become {
         display: none;
     }
+
     #dots {
         display: none;
     }
+
     #produts_lists {
         display: inline;
     }
+
     #cart1 img {
         width: 195px;
         height: 90px;
         margin-left: 2px;
         margin-right: 2px;
     }
+
     #jackets {
         width: 310px;
         height: 80px;
         margin: 5px;
+    }
+
+    .ending {
+        display: none;
     }
 
     #jackets img {
@@ -228,12 +255,15 @@ p {
         display: none;
     }
 
-    .main {
-        margin-top: 50px;
-    }
 
     .color {
         margin-top: auto;
+    }
+    .mouse {
+        width: 109px;
+        padding: 10px;
+        margin: 10px;
+       
     }
 }
 
@@ -262,6 +292,21 @@ p {
 @media screen and (max-width: 532px) {
     .icone img {
         width: 170px;
+    }
+
+    .Home_icone i {
+        font-size: 14px;
+    }
+
+    #ending_flexity {
+        display: flex;
+        justify-content: space-evenly;
+        padding: 5px;
+        position: fixed;
+        z-index: 100;
+        background-color: #fff;
+        bottom: 0px;
+        width: 100%;
     }
 
     .serch input {
@@ -323,7 +368,7 @@ p {
     }
 
     .parts p {
-        font-size: 19px;
+        font-size: 17px;
     }
 
     #slid img {
@@ -507,7 +552,7 @@ header {
 
 .slide img {
     border-radius: 10px;
-    width: 1273px;
+    width: 1328px;
     height: 300px;
     object-fit: cover;
 }
@@ -557,7 +602,7 @@ header {
 }
 
 .cart1 img {
-    width: 420px;
+    width: 440px;
     margin-left: 2px;
     margin-right: 2px;
 }
@@ -630,7 +675,8 @@ header {
     display: flex;
     justify-content: space-evenly;
 }
-#about{
+
+#about {
     color: rgb(207, 204, 204);
     margin-bottom: 15px;
 }
@@ -653,9 +699,10 @@ header {
     padding: 5px;
     color: white;
 }
+
 .facbook i:hover {
     font-size: 20px;
- color: rgb(165, 173, 180);
+    color: rgb(165, 173, 180);
 }
 
 /* there are part off 2002 */
@@ -670,12 +717,64 @@ header {
     color: white;
     align-items: center;
 }
-
 .become_i i {
     margin: 5px;
     font-size: 16px;
 }
 .become_i i:hover {
-color: rgb(165, 173, 180);
+    color: rgb(165, 173, 180);
     font-size: 17px;
+}
+/* there are part off ending home about */
+.ending_flexity {
+    display: none;
+}
+.Home_icone {
+    border-radius: 10px;
+    text-align: center;
+}
+.Home_icone i {
+    font-size: 15px;
+}
+.Home_icone:hover {
+    color: rgb(93, 87, 99);
+}
+.Home_icone p {
+    font-size: 16px;
+}
+/* there are part off products page */
+.mouse_carts h1{
+    padding: 5px;
+    font-family:Arial, Helvetica, sans-serif;
+}
+.products_parts {
+    display: flex;
+    flex-wrap: wrap;
+}
+.mouse img {
+    border-radius: 5px;
+    height: 140px;
+    width: 190px;
+}
+.mouse h2{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 23px;
+}
+.mouse p{
+    font-family:'Times New Roman', Times, serif;
+    font-size: 17px;
+}
+.mouse{
+    display: none;
+}
+.mouse {
+    text-align: center;
+    width: 229px;
+    padding: 10px;
+    margin: 10px;
+    background-color: aqua;
+}
+.mouse:hover {
+    border-radius: 9px;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 12px 28px 0px, rgba(0, 0, 0, 0.1) 0px 2px 4px 0px, rgba(255, 255, 255, 0.05) 0px 0px 0px 1px inset;
 }

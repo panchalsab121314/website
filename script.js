@@ -1,4 +1,3 @@
-
 let bar = document.getElementById("bar")
 let cross = document.getElementById("cross")
 let hello = document.getElementById("hello")
@@ -35,3 +34,39 @@ function slider_fun(index,i) {
     slider.style.transform = `translateX(-${index}00%)`
     slider.style.transition = "all 1s ease-in";
 }
+
+// there areparts off inpute serch
+let input = document.getElementById('input')
+let mouse = document.querySelectorAll('.mouse')
+let text_mouse = document.querySelectorAll('text_mouse')
+let Jackets = document.querySelectorAll('Jackets')
+
+input.addEventListener('input', () => {
+    let data = input.value
+    console.log(data)
+    for (let i = 0; i < mouse.length; i++) {
+        const h2 = mouse[i].getElementsByTagName('h2')[0].textContent;
+        if (h2.toLocaleLowerCase().includes(data.toLocaleLowerCase())) {
+            mouse[i].style.display = "block"
+        } else {
+        mouse[i].style.display = "none"
+        }
+    }
+})
+
+let typeing = document.getElementById('typeing')
+
+typeing.addEventListener('input',()=>{
+    let data=typeing.value
+    console.log(data)
+    for (let i = 0; i < mouse.length; i++) {
+        const h2 = mouse[i].getElementsByTagName('h2')[0].textContent;
+        if (h2.toLocaleLowerCase().includes(data.toLocaleLowerCase())) {
+            mouse[i].style.display = "block"
+        } else {
+        mouse[i].style.display = "none"
+        }
+    }
+    
+})
+
