@@ -87,7 +87,8 @@ p {
     border-bottom-right-radius: 20px;
     border-bottom-left-radius: 20px;
 }
-.parts{
+
+.parts {
     display: flex;
     justify-content: space-evenly;
     text-align: center;
@@ -144,6 +145,14 @@ p {
     background-color: rgb(146, 64, 64);
 }
 
+@media only screen and (max-width: 1299px) {
+    #slid img {
+        border-radius: 10px;
+        width: 1277px;
+        height: 360px;
+        object-fit: cover;
+    }
+}
 @media only screen and (max-width: 1100px) {
     .serch input {
         width: 200px !important;
@@ -152,11 +161,6 @@ p {
     #section3 {
         display: none;
     }
-
-    .section {
-        margin: 10px;
-    }
-
     .box p {
         font-size: 17px;
     }
@@ -184,13 +188,58 @@ p {
     #box_3 {
         display: none;
     }
+}
+@media only screen and (max-width: 1027px) {
+    #mouse {
+        width: 228px;
+        padding: 5px;
+        margin: 5px;
+    }
 
+    #mouse img {
+        height: 100px;
+        width: 150px;
+    }
+    #mouse h2 {
+        font-size: 15px;
+    }
+}
+@media only screen and (max-width: 920px) {
+    #mouse {
+        width: 205px;
+        padding: 5px;
+        margin: 5px;
+    }
+
+    #mouse img {
+        height: 100px;
+        width: 150px;
+    }
+    #mouse h2 {
+        font-size: 15px;
+    }
+}
+@media screen and (max-width: 825px) {
+    #mouse {
+        width: 230px;
+        padding: 5px;
+        margin: 5px;
+    }
+
+    #mouse img {
+        height: 100px;
+        width: 150px;
+    }
+    #mouse h2 {
+        font-size: 15px;
+    }
 }
 
 @media screen and (max-width: 730px) {
     #Seller {
         display: none;
     }
+
     #ending_flexity {
         display: block;
         display: flex;
@@ -202,9 +251,11 @@ p {
         bottom: 0px;
         width: 100%;
     }
+
     #section2 {
         display: none;
     }
+
     #Become {
         display: none;
     }
@@ -259,12 +310,7 @@ p {
     .color {
         margin-top: auto;
     }
-    .mouse {
-        width: 109px;
-        padding: 10px;
-        margin: 10px;
-       
-    }
+
 }
 
 @media screen and (max-width: 630px) {
@@ -336,6 +382,20 @@ p {
         height: 180px;
         object-fit: cover;
     }
+
+    #mouse {
+        width: 160px;
+        padding: 5px;
+        margin: 5px;
+    }
+
+    #mouse img {
+        height: 100px;
+        width: 150px;
+    }
+    #mouse h2 {
+        font-size: 15px;
+    }
 }
 
 @media screen and (max-width: 430px) {
@@ -357,6 +417,25 @@ p {
 
     #number_1 {
         width: 120px;
+    }
+    #mouse {
+        width: 120px;
+        height: 140px;
+        padding: 5px;
+        margin: 5px;
+        text-align: center;
+    }
+
+    #mouse img {
+        height: 100px;
+        width: 120px;
+        border-radius: 5px;
+    }
+    #mouse h2 {
+        font-size: 15px;
+    }
+    #mouse p {
+        font-size: 12px;
     }
 }
 
@@ -390,6 +469,26 @@ p {
     #number_1 {
         width: 155px;
     }
+    #mouse {
+        width: 115px;
+        height: 140px;
+        padding: 5px;
+        margin: 5px;
+        text-align: center;
+    }
+
+    #mouse img {
+        height: 100px;
+        width: 120px;
+        border-radius: 5px;
+    }
+    #mouse h2 {
+        font-size: 15px;
+    }
+    #mouse p {
+        font-size: 12px;
+    }
+    
 }
 
 @media screen and (max-width: 390px) {
@@ -410,6 +509,23 @@ p {
 
     #number_1 {
         width: 140px;
+    }
+    #mouse {
+        width: 100px;
+        padding: 5px;
+        margin: 5px;
+        text-align: center;
+    }
+
+    #mouse img {
+        height: 80px;
+        width: 100px;
+    }
+    #mouse h2 {
+        font-size: 15px;
+    }
+    #mouse p {
+        font-size: 12px;
     }
 }
 
@@ -717,64 +833,85 @@ header {
     color: white;
     align-items: center;
 }
+
 .become_i i {
     margin: 5px;
     font-size: 16px;
 }
+
 .become_i i:hover {
     color: rgb(165, 173, 180);
     font-size: 17px;
 }
+
 /* there are part off ending home about */
 .ending_flexity {
     display: none;
 }
+
 .Home_icone {
     border-radius: 10px;
     text-align: center;
 }
+
 .Home_icone i {
     font-size: 15px;
 }
+
 .Home_icone:hover {
     color: rgb(93, 87, 99);
 }
+
 .Home_icone p {
     font-size: 16px;
 }
+
 /* there are part off products page */
-.mouse_carts h1{
+.mouse_carts h1 {
     padding: 5px;
-    font-family:Arial, Helvetica, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
 }
+
 .products_parts {
     display: flex;
     flex-wrap: wrap;
 }
+#mouse img{
+    border-radius: 10px;
+}
 .mouse img {
-    border-radius: 5px;
+    border-radius: 10px;
     height: 140px;
     width: 190px;
+    object-fit: contain;
 }
-.mouse h2{
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+.mouse h2 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 23px;
 }
-.mouse p{
-    font-family:'Times New Roman', Times, serif;
+.mouse p {
+    font-family: 'Times New Roman', Times, serif;
     font-size: 17px;
 }
-.mouse{
-    display: none;
+.display_none_before_serch {
+    display: block;
 }
+
+.mouse {
+    display: none;
+} 
+
 .mouse {
     text-align: center;
-    width: 229px;
+    width: 226px;
     padding: 10px;
     margin: 10px;
-    background-color: aqua;
+    border-radius: 5px;
+    background-color: rgb(170, 180, 180);
 }
+
 .mouse:hover {
-    border-radius: 9px;
-    box-shadow: rgba(0, 0, 0, 0.2) 0px 12px 28px 0px, rgba(0, 0, 0, 0.1) 0px 2px 4px 0px, rgba(255, 255, 255, 0.05) 0px 0px 0px 1px inset;
+    border-radius: 10px;
+    box-shadow: rgba(20, 20, 20, 0.2) 0px 12px 28px 0px, rgba(0, 0, 0, 0.1) 0px 2px 4px 0px, rgba(255, 255, 255, 0.05) 0px 0px 0px 1px inset;
 }
