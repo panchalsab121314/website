@@ -153,6 +153,7 @@ p {
         object-fit: cover;
     }
 }
+
 @media only screen and (max-width: 1100px) {
     .serch input {
         width: 200px !important;
@@ -161,6 +162,7 @@ p {
     #section3 {
         display: none;
     }
+
     .box p {
         font-size: 17px;
     }
@@ -188,7 +190,15 @@ p {
     #box_3 {
         display: none;
     }
+
+    #imgs_jackets {
+        width: 160px;
+        margin: 5px;
+        padding: 5px;
+        box-shadow: rgba(17, 17, 26, 0.05) 0px 1px 0px, rgba(17, 17, 26, 0.1) 0px 0px 8px;
+    }
 }
+
 @media only screen and (max-width: 1027px) {
     #mouse {
         width: 228px;
@@ -200,10 +210,12 @@ p {
         height: 100px;
         width: 150px;
     }
+
     #mouse h2 {
         font-size: 15px;
     }
 }
+
 @media only screen and (max-width: 920px) {
     #mouse {
         width: 205px;
@@ -215,10 +227,12 @@ p {
         height: 100px;
         width: 150px;
     }
+
     #mouse h2 {
         font-size: 15px;
     }
 }
+
 @media screen and (max-width: 825px) {
     #mouse {
         width: 230px;
@@ -230,13 +244,15 @@ p {
         height: 100px;
         width: 150px;
     }
+
     #mouse h2 {
         font-size: 15px;
     }
+
     /* there are part off margen bottem */
-#margen_bottem{
-    margin-bottom: 50px;
-}
+    #margen_bottem {
+        margin-bottom: 50px;
+    }
 }
 
 @media screen and (max-width: 730px) {
@@ -397,8 +413,26 @@ p {
         height: 100px;
         width: 150px;
     }
+
     #mouse h2 {
         font-size: 15px;
+    }
+
+    #imgs_jackets {
+        width: 140px;
+        margin: 5px;
+        padding: 5px;
+        box-shadow: rgba(17, 17, 26, 0.05) 0px 1px 0px, rgba(17, 17, 26, 0.1) 0px 0px 8px;
+    }
+
+    #imgs_jackets img {
+        width: 140px;
+        height: 110px;
+        object-fit: contain;
+    }
+    #imgs_jackets h2{
+        font-size: 20px;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     }
 }
 
@@ -422,6 +456,7 @@ p {
     #number_1 {
         width: 120px;
     }
+
     #mouse {
         width: 120px;
         padding: 5px;
@@ -434,9 +469,11 @@ p {
         width: 120px;
         border-radius: 5px;
     }
+
     #mouse h2 {
         font-size: 15px;
     }
+
     #mouse p {
         font-size: 12px;
     }
@@ -472,6 +509,7 @@ p {
     #number_1 {
         width: 155px;
     }
+
     #mouse {
         width: 115px;
         padding: 5px;
@@ -484,13 +522,21 @@ p {
         width: 120px;
         border-radius: 5px;
     }
+
     #mouse h2 {
         font-size: 15px;
     }
+
     #mouse p {
         font-size: 12px;
     }
-    
+    #imgs_jackets {
+        width: 170px;
+        margin: 5px;
+        padding: 5px;
+        box-shadow: rgba(17, 17, 26, 0.05) 0px 1px 0px, rgba(17, 17, 26, 0.1) 0px 0px 8px;
+    }
+
 }
 
 @media screen and (max-width: 390px) {
@@ -512,6 +558,7 @@ p {
     #number_1 {
         width: 140px;
     }
+
     #mouse {
         width: 100px;
         padding: 5px;
@@ -523,11 +570,19 @@ p {
         height: 80px;
         width: 100px;
     }
+
     #mouse h2 {
         font-size: 15px;
     }
+
     #mouse p {
         font-size: 12px;
+    }
+    #imgs_jackets {
+        width: 170px;
+        margin: 5px;
+        padding: 5px;
+        box-shadow: rgba(17, 17, 26, 0.05) 0px 1px 0px, rgba(17, 17, 26, 0.1) 0px 0px 8px;
     }
 }
 
@@ -582,6 +637,12 @@ p {
         margin-left: 2px;
         margin-right: 2px;
     }
+    #imgs_jackets {
+        width: 160px;
+        margin: 5px;
+        padding: 5px;
+        box-shadow: rgba(17, 17, 26, 0.05) 0px 1px 0px, rgba(17, 17, 26, 0.1) 0px 0px 8px;
+    }
 }
 
 @media screen and (max-width: 371px) {
@@ -591,6 +652,7 @@ p {
         height: 150px;
         object-fit: cover;
     }
+
     #cart1 img {
         width: 112px;
         height: 95px;
@@ -602,6 +664,12 @@ p {
     #number_1 {
         width: 140px;
     }
+    /* #imgs_jackets {
+        width: 110px;
+        margin: 5px;
+        padding: 5px;
+        box-shadow: rgba(17, 17, 26, 0.05) 0px 1px 0px, rgba(17, 17, 26, 0.1) 0px 0px 8px;
+    } */
 
 }
 
@@ -877,9 +945,11 @@ header {
     display: flex;
     flex-wrap: wrap;
 }
-#mouse img{
+
+#mouse img {
     border-radius: 10px;
 }
+
 .mouse img {
     border-radius: 10px;
     height: 140px;
@@ -891,17 +961,19 @@ header {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 23px;
 }
+
 .mouse p {
     font-family: 'Times New Roman', Times, serif;
     font-size: 17px;
 }
+
 .display_none_before_serch {
     display: block;
 }
 
 .mouse {
     display: none;
-} 
+}
 
 .mouse {
     text-align: center;
@@ -918,7 +990,35 @@ header {
 }
 
 /* there are part off margen bottem */
-#margen_bottem{
-    margin-bottom: 50px;
+#margen_bottem {
+    margin-bottom: 100px;
 }
 
+/* there are produts of img links */
+#produts {
+    margin-top: 90px
+}
+
+.puma_jackets {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.imgs_jackets img {
+    height: 200px;
+    width: 150px;
+    object-fit: cover;
+}
+
+.imgs_jackets {
+    width: 190px;
+    margin: 5px;
+    padding: 5px;
+    box-shadow: rgba(17, 17, 26, 0.05) 0px 1px 0px, rgba(17, 17, 26, 0.1) 0px 0px 8px;
+}
+
+.imgs_jackets:hover {
+    border-radius: 5px;
+    box-shadow: rgba(3, 6, 7, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+}

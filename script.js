@@ -15,7 +15,6 @@ cross.addEventListener('click', () => {
 
 
 //theer are slider
-
 const slider = document.getElementById("slider")
 const slide = document.querySelectorAll(".slide")
 let num = 0;
