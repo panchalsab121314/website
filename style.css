@@ -71,6 +71,7 @@ body {
 
 p {
     font-size: 17px;
+    text-decoration: none;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
@@ -765,6 +766,7 @@ header {
     border: 1px solid rgb(204, 226, 219);
     text-align: center;
     background-color: #fff;
+    text-decoration: none;
 }
 
 .img1:hover {
@@ -1008,7 +1010,7 @@ header {
 .imgs_jackets img {
     height: 200px;
     width: 150px;
-    object-fit: cover;
+    object-fit: contain;
 }
 
 .imgs_jackets {
