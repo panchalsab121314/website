@@ -20,7 +20,7 @@ const slide = document.querySelectorAll(".slide")
 let num = 0;
 const set_time = setInterval(() => {
     slider_fun(num++)
-}, 2000)
+}, 5000)
 function slider_fun(index, i) {
     if (index == slide.length) {
         index = 0

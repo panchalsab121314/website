@@ -355,6 +355,7 @@ p {
     #number_1 img {
         width: 130px;
         height: 120px;
+        object-fit: contain;
     }
 }
 
@@ -812,6 +813,7 @@ header {
 .number_1 img {
     width: 150px;
     height: 150px;
+    object-fit: contain;
 }
 
 .number_1 {
